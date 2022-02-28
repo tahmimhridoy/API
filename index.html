@@ -12,6 +12,15 @@
 <body>
     <div class="container">
         <h1 class=" w-50 mx-auto mt-3 border rounded text-warning text-center p-3 bg-danger">Player Details</h1>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input id="search-input" type="text" class="form-control" placeholder="Search your favorite player" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button id="search-btn" onclick="searchResult()" class="btn btn-outline-secondary" type="button">Button</button>
+            </div>
+          </div>
+          <div id="search-players" class="row">
+
+          </div>
     </div>
     <script src="app.js"></script>
 </body>
